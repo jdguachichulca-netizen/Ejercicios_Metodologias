@@ -11,7 +11,7 @@ export function transformarCadena(texto: string): string {
     // Escribir tu código aquí
     for (let char of texto) {
         let lower = char.toLowerCase();
-        if ('aeio'.includes(lower)) {
+        if ('aeiou'.includes(lower)) {
             resultado += '(';
         } else if ('mn'.includes(lower)) {
             resultado += '*';
