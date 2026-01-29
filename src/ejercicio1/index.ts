@@ -8,17 +8,6 @@ export function productoExceptoActual(nums:  number[]): number[] {
 
    // Escribir tu código aquí 
    
-   for(let i = 0 ; i < n ; i++){
-    var producto = 1 
-    for(let j = 0 ; j < n ; j++){
-        if(i !== j ){
-            producto *= nums[j]!
-    }
-     
-   }
-   result[i]=producto
-     
-    }
-    return result;
+   return result;
   
 }
