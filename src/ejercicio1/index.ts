@@ -6,8 +6,8 @@ export function productoExceptoActual(nums:  number[]): number[] {
     const n = nums.length;
     const result = new Array(n).fill(1);
 
-   // Escribir tu código aquí 
-   
+   // Escribir tu código aqu
+      
    return result;
   
 }
